@@ -1,0 +1,99 @@
+
+
+body 
+{
+	font-family: "Lucida Grande", Arial, sans-serif, Verdana;
+	background-color: #ffffff;
+	font-size: 100%;
+}
+
+
+h3
+{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+
+.grid_4_full
+{
+	display: inline;
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 320px;
+	height: 320px;
+}
+
+.grid_4_common
+{
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 300px;
+}
+
+.grid_8_common
+{
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 620px;
+	height: 300px;
+}
+
+.grid_4_image
+{
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/g0x0.jpg);
+	background-repeat: no-repeat;
+}
+
+.grid_4_text
+{
+	color: #333333;
+	font-family: Eurostile;
+	font-size: 100%;
+	padding: 20px;
+	width: 260px;
+	height: 260px;
+}
+
+.grid_4_text_right
+{
+	color: #333333;
+	font-family: Eurostile;
+	text-align: right;
+	font-size: 100%;
+	padding: 20px;
+	width: 260px;
+	height: 260px;
+}
+
+.grid_4_image1
+{
+	display: inline;
+	float: left;
+	margin: 10px
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/g0x0.jpg);
+	background-repeat: no-repeat;
+}

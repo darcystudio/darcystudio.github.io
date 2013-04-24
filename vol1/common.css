@@ -1,0 +1,169 @@
+* 
+{
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+
+body 
+{
+	background-repeat: no-repeat;
+	/*background-image: url(image/background.jpg);*/
+	background-color: #333333;
+}
+
+
+a
+{
+	color: #00cc00;
+	text-decoration: none;
+}
+
+div#wrapper
+{
+	width: 820px;
+	min-height: 520px;
+	height:auto !important;
+	height: 520px;	
+	
+	/*background-color:#ffffff;*/
+	margin:0 auto;
+	margin-top:0px;	
+	/*border:1px solid#213656;*/
+	/*border:1px solid rgb(191, 226, 210);*/
+	
+	/*background:url(../images/006.jpg) no-repeat right bottom;	*/
+}
+
+div#header
+{
+	text-align: left;
+	padding-left: 8px;
+	padding-top: 16px;
+	padding-right: 8px;
+	
+	width: 300px;
+	height: 50px;
+/*	margin:30px;
+	margin-top:30px;
+	height:200px;	
+	color:#808080;
+	font-size:12px;*/
+	float: left;
+}
+
+div#iconbar
+{
+	background-repeat: no-repeat;
+	padding: 16px;
+	background-image: url(image/header-bg.png);
+	width: 800px;
+	height: 100px;
+	text-align: center;
+}
+
+div#icon {
+	padding-left: 32px;
+	padding-top: 8px;
+	padding-right: 32px;
+	color: white;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	min-width: 80px;
+	min-height: 80px;
+	float: right;
+	font-size: 80%;
+}
+
+
+
+div#main 
+{
+   	width: 820px;     
+}
+
+
+
+
+div#app_SunriseRadar
+{
+	padding-left: 16px;
+	padding-top: 16px;
+	background-repeat: no-repeat;
+	background-image: url(sunriseradar/sunriseradar-bg.png);
+	/*background-image: url(image/app-bg.png);*/
+	width: 820px;
+	height: 440px;
+	clear: left;
+}
+
+
+div#app_FriendsRadar
+{
+	padding-left: 16px;
+	padding-top: 16px;
+	background-repeat: no-repeat;
+	background-image: url(friendsradar/background.jpg);
+	/*background-image: url(image/app-bg.png);*/
+	width: 820px;
+	height: 440px;
+	clear: left;
+}
+
+
+div#app_PictureStory
+{
+	padding-left: 16px;
+	padding-top: 16px;
+	background-repeat: no-repeat;
+	background-image: url(picturestory/background.png);
+	/*background-image: url(image/app-bg.png);*/
+	width: 820px;
+	height: 440px;
+	clear: left;
+}
+
+
+div#app_title
+{
+	/*font-weight: bold;*/
+	/*font-style: italic;*/
+	text-align: left;
+	color: black;
+	font-size: 120%;
+	padding: 31px;
+}
+
+div#app_screen {
+	padding-left: 25px;
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+
+
+div#app_introduce {
+	color: #000000;
+	padding-left: 25px;
+	width: 520px;
+	height: 250px;
+	float: left;
+}
+
+div#app_other
+{
+	text-align: left;
+	color: #cccccc;
+	padding-left: 25px;
+	width: 520px;
+	height: 100px;
+	float: left;
+}
+
+div#footer {
+	color: #cccccc;
+	clear: left;
+	font-size: 90%;
+	text-align: center;
+	height: 100px;
+}
